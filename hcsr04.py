@@ -6,7 +6,7 @@ import time
 Trig_Pin = 35
 Echo_Pin = 37
 
-#BOARD��ŷ�ʽ�����ڲ������ű��
+#BOARD编号方式，基于插座引脚编号
 GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(Trig_Pin,GPIO.OUT,initial=GPIO.LOW)
