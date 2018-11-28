@@ -1,9 +1,9 @@
-#ÒıÈëAdafruit_DHT
+#å¼•å…¥Adafruit_DHT
 import Adafruit_DHT
 import time
-#¶¨ÒåsensorĞÍºÅ
+#å®šä¹‰sensorå‹å·
 sensor = Adafruit_DHT.DHT22
-#¶¨ÒåÒı½ÅÎª27£¨BOARD±àÂëÎª13£©
+#å®šä¹‰å¼•è„šä¸º27ï¼ˆBOARDç¼–ç ä¸º13ï¼‰
 pin = 27
 
 while True:
